@@ -1,0 +1,21 @@
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.log
+# Artefatos pesados e exportações locais
+dist/
+build/
+backups-local/
+exports-local/
